@@ -1,0 +1,210 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.landing {
+    text-align: center;
+    background-image: url('https://ruko.s3.ap-southeast-1.amazonaws.com/rumahkomunitas.com/tulisan/300419100457_arif-riyanto-974674-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    color: white;
+    padding-top: 150px;
+    position: relative;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+ul {
+    list-style: none;
+    text-align: right;
+    background-color: cadetblue;
+    margin: 0;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+li {
+    display: inline-block;
+    padding: 15px ;
+    margin: 0px;
+}
+
+.icon {
+    width: 40px;
+    float: left;
+    padding: 0;
+    margin: 5px;
+}
+
+.login {
+    background-color: darkslategrey;
+}
+
+.icontro {
+    width: 100px;
+    margin-top: 100px;
+}
+
+.intro {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.intro1 {
+    text-align: center;
+    width: 300px;
+    margin-left: 200px;
+    float: left;
+}
+
+.intro2 {
+    text-align: center;
+    width: 300px;
+    float: right;
+    margin-right: 200px;
+}
+
+.myProfile {
+    margin: 0;
+    padding: 45px;
+    font-size: 20px;
+    font-family: 'EB Garamond', serif;
+}
+
+.myPortofolio {
+    margin-top: 450px;
+    padding: 50px;
+    padding-bottom: 400px;
+    background-color: cadetblue;
+    font-family: 'EB Garamond', serif;
+}
+
+.image {
+    width: 100px;
+    height: 200px;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+    padding: 20px;
+    background-color: honeydew;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.container {
+    padding: 50px;
+    box-sizing: border-box;
+    font-family: 'EB Garamond', serif;
+}
+
+input[type=text], select, textarea {
+    width: 70%;
+    padding: 12px;
+}
+
+label {
+    padding: 12px 12px 12px 0px;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: green;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.col-25 {
+    width: 25%;
+    float: left;
+    margin-top: 8px;
+}
+
+.col-75 {
+    width: 75%;
+    float: left;
+    margin-top: 8px;
+}
+.footer {
+    text-align: center;
+    background-color: cadetblue;
+    margin: 0;
+    padding: 5px;
+    font-size: 8px;
+}
+
+@media screen and (max-width: 600px) {
+.col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+}
+.dekstop {
+    display: none;
+}
+
+.myProfile {
+    font-size: 15px;
+}
+
+.intro1 {
+    display: block;
+    margin: auto;
+}
+
+.intro2 {
+    display: block;
+    margin: auto;
+}
+
+.myPortofolio {
+    margin-top: 700px;
+    font-size: 10px;
+    text-align: center;
+    padding-bottom: 800px;
+}
+
+div.gallery {
+    margin-top: 10px;
+    margin-left: 68px;
+    display: block;
+    width: 100px;
+    padding: 25px;
+}
+
+.container {
+    font-size: 10px;
+}
